@@ -1,0 +1,165 @@
+/* ═══════════ CONTACTO ═══════════ */
+.contacto-section{
+  padding:5rem 0;
+  background:var(--bg);
+}
+.contacto-grid{
+  display:grid;
+  grid-template-columns:1.3fr 1fr;
+  gap:3rem;
+  align-items:start;
+}
+.contacto-info h2{
+  font-size:clamp(1.6rem,3.5vw,2.2rem);
+  margin-bottom:.6rem;
+}
+.contacto-desc{
+  color:var(--text-muted);
+  margin-bottom:2rem;
+  line-height:1.7;
+}
+.contact-items{
+  display:flex;
+  flex-direction:column;
+  gap:1.5rem;
+  margin-bottom:2rem;
+}
+.contact-item{
+  display:flex;
+  gap:1rem;
+  align-items:flex-start;
+}
+.contact-icon{
+  font-size:1.4rem;
+  width:44px;height:44px;
+  background:var(--teal-light);
+  border-radius:var(--r-md);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+}
+.contact-item h4{
+  font-family:var(--font-body);
+  font-weight:600;
+  font-size:.95rem;
+  margin-bottom:.2rem;
+}
+.contact-item p{
+  font-size:.88rem;
+  color:var(--text-muted);
+  line-height:1.5;
+  margin:0;
+}
+.contact-item a{
+  color:var(--teal);
+  font-weight:500;
+}
+.contact-item a:hover{color:var(--teal-dark)}
+
+/* ── Map Card ── */
+.map-card{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  padding:1.2rem 1.5rem;
+  background:var(--gray-50);
+  border-radius:var(--r-lg);
+  border:1px solid var(--border);
+  transition:all var(--t-mid);
+  text-decoration:none;
+}
+.map-card:hover{
+  border-color:rgba(77,168,160,.25);
+  box-shadow:var(--shadow-md);
+  transform:translateY(-2px);
+}
+.map-icon{color:var(--teal);flex-shrink:0}
+.map-card h4{
+  font-family:var(--font-body);
+  font-weight:600;
+  font-size:.9rem;
+  margin-bottom:.1rem;
+}
+.map-card p{
+  font-size:.82rem;
+  color:var(--text-muted);
+  margin:0;
+}
+.map-card .btn{margin-left:auto;white-space:nowrap;flex-shrink:0}
+
+/* ── Hours Card ── */
+.hours-card{
+  background:var(--bg-card);
+  border-radius:var(--r-xl);
+  padding:2rem;
+  box-shadow:var(--shadow-md);
+  border:1px solid var(--border);
+  border-top:4px solid var(--teal);
+}
+.hours-card h3{
+  font-size:1.2rem;
+  margin-bottom:1.5rem;
+  text-align:center;
+}
+.hours-list{
+  display:flex;
+  flex-direction:column;
+  gap:.4rem;
+}
+.hours-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:.5rem .8rem;
+  border-radius:var(--r-sm);
+  transition:background var(--t-fast);
+}
+.hours-row:hover{background:var(--teal-subtle)}
+.hours-day{
+  font-weight:500;
+  font-size:.9rem;
+}
+.hours-time{
+  font-size:.88rem;
+  color:var(--teal);
+  font-weight:500;
+}
+.hours-closed{color:#e05252}
+.hours-cta{
+  text-align:center;
+  margin-top:1.5rem;
+  padding-top:1.2rem;
+  border-top:1px solid var(--border);
+}
+.hours-cta p{
+  font-size:.84rem;
+  color:var(--text-muted);
+  margin-bottom:.8rem;
+}
+
+/* ═══════════ INSTAGRAM ═══════════ */
+.instagram-section{
+  padding:4rem 0;
+  background:linear-gradient(135deg,var(--teal-subtle),var(--warm-light));
+}
+.instagram-section h2{
+  font-size:clamp(1.5rem,3vw,2rem);
+  margin-bottom:.5rem;
+}
+.instagram-section p{
+  color:var(--text-muted);
+  margin-bottom:1.5rem;
+}
+.instagram-btn{
+  gap:.6rem;
+}
+
+/* ═══════════ RESPONSIVE ═══════════ */
+@media(max-width:1024px){
+  .contacto-grid{grid-template-columns:1fr;gap:2.5rem}
+}
+@media(max-width:768px){
+  .contacto-section{padding:3.5rem 0}
+  .map-card{flex-wrap:wrap}
+  .map-card .btn{margin-left:0;margin-top:.5rem;width:100%;justify-content:center}
+  .instagram-section{padding:3rem 0}
+}
