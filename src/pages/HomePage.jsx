@@ -4,9 +4,9 @@ import { openWhatsApp } from '../utils/whatsapp'
 import './HomePage.css'
 
 const servicesPreview = [
-  { num: '01', title: 'Diseño de Sonrisa', desc: 'Carillas de porcelana o resina para una armonía dental personalizada.', img: `${import.meta.env.BASE_URL}assets/service_smile_design.png`, action: 'smile-design' },
-  { num: '02', title: 'Implantes Dentales', desc: 'Implantes de titanio con coronas idénticas a dientes naturales.', img: `${import.meta.env.BASE_URL}assets/service_implants.png`, action: 'implants' },
-  { num: '03', title: 'Blanqueamiento Láser', desc: 'Brillo natural en una sola sesión con tecnología foto-activada.', img: `${import.meta.env.BASE_URL}assets/service_whitening.png`, action: 'whitening' },
+  { num: '01', title: 'Diseño de Sonrisa', desc: 'Carillas de porcelana o resina para una armonía dental personalizada.', img: `${import.meta.env.BASE_URL}assets/service_smile_design.webp`, action: 'smile-design' },
+  { num: '02', title: 'Implantes Dentales', desc: 'Implantes de titanio con coronas idénticas a dientes naturales.', img: `${import.meta.env.BASE_URL}assets/service_implants.webp`, action: 'implants' },
+  { num: '03', title: 'Blanqueamiento Láser', desc: 'Brillo natural en una sola sesión con tecnología foto-activada.', img: `${import.meta.env.BASE_URL}assets/service_whitening.webp`, action: 'whitening' },
 ]
 
 export default function HomePage() {
@@ -20,7 +20,7 @@ export default function HomePage() {
       {/* ═══ HERO ═══ */}
       <section className="hero">
         <div className="hero-bg-wrap">
-          <img src={`${import.meta.env.BASE_URL}assets/hero_clinic.png`} alt="Clínica Helitte Dental Design" className="hero-bg" />
+          <img src={`${import.meta.env.BASE_URL}assets/hero_clinic.webp`} alt="Clínica Helitte Dental Design" className="hero-bg" />
         </div>
         <div className="hero-overlay" />
         <div className="hero-orb hero-orb-1" />

@@ -41,7 +41,7 @@ export default function NosotrosPage() {
       <section className="about-section">
         <div className="container about-grid">
           <div className="about-image-wrap">
-            <img src={`${import.meta.env.BASE_URL}assets/dentist_doctor.png`} alt="Dra. Daiana Ceballos" className="about-img" />
+            <img src={`${import.meta.env.BASE_URL}assets/dentist_doctor.webp`} alt="Dra. Daiana Ceballos" className="about-img" />
             <div className="exp-badge">
               <span className="exp-num">10+</span>
               <span className="exp-label">Años de Experiencia</span>

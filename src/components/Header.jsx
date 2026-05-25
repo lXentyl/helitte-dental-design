@@ -31,7 +31,7 @@ export default function Header() {
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <Link to="/" className="logo" onClick={() => setMenuOpen(false)}>
-          <img src={`${import.meta.env.BASE_URL}assets/logo.png`} alt="Helitte Dental Design" className="logo-img" />
+          <img src={`${import.meta.env.BASE_URL}assets/logo.webp`} alt="Helitte Dental Design" className="logo-img" />
         </Link>
 
         <nav className={`nav-menu ${menuOpen ? 'open' : ''}`}>

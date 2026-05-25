@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link to="/" className="logo">
-              <img src={`${import.meta.env.BASE_URL}assets/logo.png`} alt="Helitte Dental Design" className="logo-img" />
+              <img src={`${import.meta.env.BASE_URL}assets/logo.webp`} alt="Helitte Dental Design" className="logo-img" />
             </Link>
             <p>Clínica odontológica de alta especialización estética. Tu salud dental en manos de profesionales certificados.</p>
             <div className="social-links">

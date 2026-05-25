@@ -54,11 +54,11 @@ export default function ResultadosPage() {
 
           <div className="ba-wrapper">
             <div className="ba-slider" ref={sliderRef} onClick={onClick}>
-              <img src={`${import.meta.env.BASE_URL}assets/smile_perfect.png`} alt="Después" className="ba-img-after" />
+              <img src={`${import.meta.env.BASE_URL}assets/smile_perfect.webp`} alt="Después" className="ba-img-after" />
               <span className="ba-label ba-label-after">Diseño Final</span>
 
               <div className="ba-resize" style={{ width: `${sliderPos}%` }}>
-                <img src={`${import.meta.env.BASE_URL}assets/smile_perfect.png`} alt="Antes" className="ba-img-before" style={{ filter: 'saturate(0.3) brightness(0.85)' }} />
+                <img src={`${import.meta.env.BASE_URL}assets/smile_perfect.webp`} alt="Antes" className="ba-img-before" style={{ filter: 'saturate(0.3) brightness(0.85)' }} />
                 <span className="ba-label ba-label-before">Estado Inicial</span>
               </div>
 

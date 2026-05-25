@@ -4,12 +4,12 @@ import { openWhatsApp } from '../utils/whatsapp'
 import './ServiciosPage.css'
 
 const services = [
-  { num: '01', title: 'Diseño de Sonrisa', desc: 'Transformación completa con carillas de porcelana o resina para lograr armonía dental, personalizada a tu rostro.', img: `${import.meta.env.BASE_URL}assets/service_smile_design.png`, action: 'smile-design' },
-  { num: '02', title: 'Implantes Dentales', desc: 'Recupera funcionalidad y estética con implantes de titanio y coronas de circonio idénticas a dientes naturales.', img: `${import.meta.env.BASE_URL}assets/service_implants.png`, action: 'implants' },
-  { num: '03', title: 'Blanqueamiento Láser', desc: 'Brillo natural para tu esmalte en una sola sesión con blanqueamiento foto-activado seguro y duradero.', img: `${import.meta.env.BASE_URL}assets/service_whitening.png`, action: 'whitening' },
-  { num: '04', title: 'Ortodoncia Estética', desc: 'Brackets estéticos de zafiro o alineadores invisibles para corrección de mordida discreta y cómoda.', img: `${import.meta.env.BASE_URL}assets/service_orthodontics.png`, action: 'orthodontics' },
-  { num: '05', title: 'Limpieza Ultrasónica', desc: 'Profilaxis profunda con ultrasonidos, micro-pulido, eliminación de sarro y aplicación de flúor.', img: `${import.meta.env.BASE_URL}assets/service_cleaning.png`, action: 'cleaning' },
-  { num: '06', title: 'Odontología General', desc: 'Diagnóstico completo, restauraciones estéticas en resina, endodoncia y cuidado preventivo de rutina.', img: `${import.meta.env.BASE_URL}assets/service_general.png`, action: 'general' },
+  { num: '01', title: 'Diseño de Sonrisa', desc: 'Transformación completa con carillas de porcelana o resina para lograr armonía dental, personalizada a tu rostro.', img: `${import.meta.env.BASE_URL}assets/service_smile_design.webp`, action: 'smile-design' },
+  { num: '02', title: 'Implantes Dentales', desc: 'Recupera funcionalidad y estética con implantes de titanio y coronas de circonio idénticas a dientes naturales.', img: `${import.meta.env.BASE_URL}assets/service_implants.webp`, action: 'implants' },
+  { num: '03', title: 'Blanqueamiento Láser', desc: 'Brillo natural para tu esmalte en una sola sesión con blanqueamiento foto-activado seguro y duradero.', img: `${import.meta.env.BASE_URL}assets/service_whitening.webp`, action: 'whitening' },
+  { num: '04', title: 'Ortodoncia Estética', desc: 'Brackets estéticos de zafiro o alineadores invisibles para corrección de mordida discreta y cómoda.', img: `${import.meta.env.BASE_URL}assets/service_orthodontics.webp`, action: 'orthodontics' },
+  { num: '05', title: 'Limpieza Ultrasónica', desc: 'Profilaxis profunda con ultrasonidos, micro-pulido, eliminación de sarro y aplicación de flúor.', img: `${import.meta.env.BASE_URL}assets/service_cleaning.webp`, action: 'cleaning' },
+  { num: '06', title: 'Odontología General', desc: 'Diagnóstico completo, restauraciones estéticas en resina, endodoncia y cuidado preventivo de rutina.', img: `${import.meta.env.BASE_URL}assets/service_general.webp`, action: 'general' },
 ]
 
 export default function ServiciosPage() {
