@@ -54,7 +54,7 @@
   align-items:center;
   gap:3rem;
   flex:1;
-  padding-top:7rem;
+  padding-top:7.5rem;
   padding-bottom:6rem;
 }
 .hero-content{max-width:600px}
@@ -310,7 +310,7 @@
   .hero-layout{
     grid-template-columns:1fr;
     text-align:center;
-    padding-top:6rem;
+    padding-top:6.5rem;
     padding-bottom:2rem;
   }
   .hero-content{max-width:100%;margin:0 auto}
@@ -327,7 +327,7 @@
 @media(max-width:768px){
   .hero{min-height:auto}
   .hero-layout{
-    padding-top:5.5rem;
+    padding-top:6rem;
     padding-bottom:1.5rem;
     gap:2rem;
   }
@@ -347,7 +347,7 @@
 }
 
 @media(max-width:480px){
-  .hero-layout{padding-top:5rem;gap:1.5rem}
+  .hero-layout{padding-top:5.5rem;gap:1.5rem}
   .hero-pill{font-size:.7rem;padding:.35rem .8rem}
   .hero-stats-inner{
     gap:.8rem;
